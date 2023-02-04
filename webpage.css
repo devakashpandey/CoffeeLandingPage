@@ -1,0 +1,109 @@
+*{
+   margin: 0px;
+   padding:0px;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+   display: flex;
+}
+
+.left{
+                    width: 55%;
+                    height: 100vh;
+                    background-color:#2d3436;
+}
+
+.right{
+                    width: 45%;
+                    height: 100vh;
+                    background-color:#636e72;
+}
+
+.cup{
+                    position: absolute;
+                    left:50%;
+                    top:50%;
+                    transform: translate(-50%,-50%);
+}
+
+
+nav{
+      position:absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      padding: 0px 80px;
+}
+
+
+#search{
+   margin-right: 20px;
+}
+
+#menu, .logo, #search{
+   cursor: pointer;
+}
+
+.h-text{
+   position:absolute;
+   color: white;
+   left:12%;
+   top:22%;
+   font-size: 40px;
+   letter-spacing: 2px;
+}
+
+.left-text{
+   position: absolute;
+   left:5%;
+   bottom: 10%;
+   color: white;
+   max-width: 400px;
+   border-left: 4px solid orange;
+   padding-left: 25px;
+   z-index: 1;
+}
+
+.right-text{
+   position: absolute;
+   right:0;
+   bottom: 50%;
+   color: white;
+   max-width: 400px;
+   border-left: 4px solid black;
+   padding-left: 25px;
+}
+
+.logo{
+   margin-top: 10px;
+}
+
+span{
+   color: orange;
+}
+
+span1{
+   color:black
+}
+
+.left-box{
+   position:absolute;
+   bottom: 6%;
+   height: 150px;
+   width: 300px;
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.right-box{
+   position:absolute;
+   right:0;
+   bottom: 46%;
+   height: 150px;
+   width: 300px;
+   background-color: rgba(0, 0, 0, 0.2);
+}
